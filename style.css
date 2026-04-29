@@ -31,6 +31,23 @@ main {
     padding: 96px 32px 96px;
 }
 
+aside.rename-banner {
+    background: rgba(74, 110, 255, 0.08);
+    border: 1px solid rgba(74, 110, 255, 0.25);
+    border-radius: 12px;
+    padding: 16px 20px;
+    margin-bottom: 56px;
+    color: var(--fg-dim);
+    font-size: 14px;
+    line-height: 1.55;
+}
+
+aside.rename-banner strong {
+    color: var(--fg);
+    display: block;
+    margin-bottom: 4px;
+}
+
 header {
     text-align: center;
     margin-bottom: 64px;
